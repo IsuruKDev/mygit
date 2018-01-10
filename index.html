@@ -5,5 +5,29 @@
 
   <body>
 
+    <script type="text/javascript">
+
+      const TAX_AMT = 0.08;
+      const PHONE_PRIZE = 99.99;
+      accountBalance = window.prompt("Hii, What is your account balance ? ");
+      console.log("Account Balance :: "+accountBalance);
+
+      while(accountBalance>PHONE_PRIZE){
+        var formattedAccountBal = Number(accountBalance).toFixed(2);
+        console.log("Before balance >> "+"$"+formattedAccountBal);
+        accountBalance -= calculatePhonePrize(PHONE_PRIZE);
+      }
+
+      function calculatePhonePrize(amt){
+
+          amt +=(amt*TAX_AMT);
+          console.log("$"+amt.toFixed(2));
+          console.log("Phone has purchased ...");
+          return amt;
+      }
+
+
+    </script>
+
   </body>
 </html>
