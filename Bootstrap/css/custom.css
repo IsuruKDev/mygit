@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
 
 .yanone{
   font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.arvo{
+  font-family: 'Arvo', serif;
 }
 
 /* Navigation bar custom styles */
@@ -14,4 +19,63 @@
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #e7580a;
+}
+
+/* jumbotron styles */
+.jumbotron{
+  text-align: center;
+  background: url("../assets/Hero-Image.jpg") no-repeat;
+}
+
+.jumbotron .btn{
+    padding: 14px 24px;
+    font-size: 21px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-transform: uppercase;
+}
+
+.jumbotron h1{
+  color: white;
+  text-transform: uppercase;
+}
+
+.jumbotron p{
+  color: white;
+  background: rgba(54,53,53,0.5);
+  font-family: 'Arvo', serif;
+  padding: 30px 5px;
+}
+
+/* about us stylings */
+.section-heading{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  padding-top: 60px;
+}
+
+#aboutus p{
+  font-family: 'Arvo', serif;
+  font-size: 18px;
+}
+
+/* contact us stylings */
+
+#contactus h3{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 35px;
+}
+
+#contactus p{
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+}
+
+/* footer styling */
+footer{
+  margin-top: 20px;
+  background: #000;
+  color: #fff;
+  font-family: 'Arvo', serif;
+  text-align: center;
 }
